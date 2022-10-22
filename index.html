@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="output.css">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.33.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="grid grid-flow-row auto-rows-max gap-4 text-white bg-huddle-violet max-[375px]:bg-[url('/images/bg-mobile.svg')] bg-[url('/images/bg-desktop.svg')] bg-no-repeat">
+  <header class="p-8  w-1/2 sm:w-1/3">
+    <img src="/images/logo.svg" alt="Huddle.">
+  </header>
+  <section class="flex flex-col sm:flex-row justify-center px-8">
+    <section class="basis-1/2">
+      <img src="/images/illustration-mockups.svg" alt="Mockups.">
+    </section>
+    <section class="basis-1/2 pt-12 sm:pl-4 prose text-center sm:text-left text-white">
+      <h1 class="text-white">Build The Community Your Fans Will Love</h1>
+      <p>
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+      Create connections with your users as you engage in genuine discussion. 
+      </p>
+      <button class="btn btn-primary rounded-full w-3/4 sm:w-1/3 normal-case bg-white text-violet-600 border-none">Register</button>
+    </section>
+  </section>
+  <footer>
+    <section class="flex max-[639px]:justify-center max-[639px]:mt-12 sm:justify-end sm:mr-12">
+      <span class="border border-solid border-white rounded-full mx-2 p-2">
+        <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f px-1"></i></a>
+      </span>
+      <span class="border border-solid border-white rounded-full mx-2 p-2">
+        <a href="https://twitter.com/"><i class="fa-brands fa-twitter px-1"></i></a>
+      </span>
+      <span class="border border-solid border-white rounded-full mx-2 p-2">
+        <a href="https://instagram.com/"><i class="fa-brands fa-instagram px-1"></i></a>
+      </span>
+    </section>
+    <p class="attribution mt-20">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+  <script src="https://kit.fontawesome.com/5ea6d8d0c9.js" crossorigin="anonymous"></script>
+</body>
+</html>
